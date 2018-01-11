@@ -1,0 +1,18 @@
+body {
+	background-color:#fff;
+	color:#000000;
+	font-family: 'Spectral SC', serif;
+}
+
+.logo {
+	width:900px;
+	height:334px;
+}
+
+h3 {
+	color:#808080;
+}
+
+a {
+	color:#ffa500;
+}
