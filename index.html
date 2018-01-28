@@ -1,3 +1,157 @@
 ---
-layout: front
+layout: page
+title: Montenegro Ingenieros S.A.
+permalink: /
 ---
+
+<!-- Slider Start -->
+<section id="slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-2">
+        <div class="block">
+          <center><img src="img/hero-logo.png" style="width:900px;height:280px;margin-left:110px;"></center>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>Quiénes Somos</h2>
+            <p>Diseño, Estudios, Supervisión</p>
+          </div>
+          <p>Somos una empresa de ingeniería, cuyos directores poseen mas de 45 años de experiencia en las areas de energía y agua, fundada para brindar los servicios de diseño, estudios, supervisión y suministro de equipos especializados.</p>
+          <p>Enfocados en brindar las soluciones de ingeniería más eficientes a los proyectos que nuestros clientes nos propongan, en base a nuestra experiencia y usando las tecnologías más avanzadas disponibles.</p>
+        </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="img/logo.png" alt="Logo">
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>
+
+<section id="feature" style="color:#000;">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2>NOS ENFOCAMOS EN LA EXCELENCIA</h2>
+      <h4 style="color:#000;">Nos orgullecemos de presentar nuestro trabajo previo, realizado con profesionalismo y dedicación, con el que nuestros prestigiosos clientes han quedado satisfechos.</h4><br><br>
+      <a href="/proyectos/" class="btn btn-view-works";><bold>Ver Proyectos</bold></a>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Service Start -->
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>Nuestros Servicios</h2>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img src="img/icono-diseno.png" style="width:100px;height:100px;">
+          <h4>Diseño</h4>
+          <p>Eléctrico &bull; Climatización &bull; Ventilación &bull; Refrigeración &bull; Hidráulico</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img src="img/icono-estudios.png" style="width:100px;height:100px;">
+          <h4>Estudios</h4>
+          <p>Hidrogeológicos &bull; Hidrológicos &bull; Vertidos de Aguas Residuales &bull; Geofísicos &bull; Geológicos &bull; Eficiencia Energética &bull; Energías Renovables</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img src="img/icono-supervision.png" style="width:100px;height:100px;">
+          <h4>Supervisión</h4>
+          <p>Obras Eléctricas &bull; Climatización &bull; Ventilación &bull; Refrigeración &bull; Hidráulicas &bull; Civiles</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img src="img/icono-equipos.png" style="width:100px;height:100px;">
+          <h4>Suministro de Equipos Especializados</h4>
+          <p>Importamos equipos especializados para cada necesidad particular de nuestros clientes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Diseño, Estudios, Supervisión</h2>
+          <p>¿Listo para comenzar su proyecto con nosotros? ¡Perfecto! Llámenos o escríbanos por correo y nos pondremos en contacto con usted lo más pronto posible!</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contacto/" >Contáctenos Hoy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Content Start -->
+<!--
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>Fun Facts About Us</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        {% if site.data.funfacts.size > 0 %}
+        <div class="block">
+          {% for ff in site.data.funfacts %}
+          <ul class="counter-box clearfix">
+            <li>
+              <div class="block">
+                <i class="{{ ff.icon }}"></i>
+                <h4 class="counter">{{ ff.counter }}</h4>
+                <span>{{ ff.text }}</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-md-6">
+        {% if site.data.testimonials.size > 0 %}
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for tm in site.data.testimonials %}
+            <div>
+                <img src="img/cotation.png" alt="IMG">
+                <p>{{ tm.testimonial }}</p>
+                <div class="user">
+                  <img src="{{ tm.image }}" alt="Pepole">
+                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+-->
