@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Construcción
+date: 2018-01-20 21:11:27 Z
+layout: post
 subtitle: Ingeniería
-date: 2018-01-20 21:11:27
 author: Rodolfo Montenegro
 ---
 

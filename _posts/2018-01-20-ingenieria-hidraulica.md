@@ -1,8 +1,9 @@
 ---
+title: Ingeniería Hidráulica
+date: 2018-01-20 00:00:00 Z
 layout: post
-title: "Ingeniería Hidráulica"
-author: "Rodolfo Montenegro"
-meta: ""
+author: Rodolfo Montenegro
+meta: ''
 ---
 
 ## Ingeniería Hidráulica

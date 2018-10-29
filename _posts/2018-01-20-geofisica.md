@@ -1,6 +1,7 @@
 ---
+title: Geofísica
+date: 2018-01-20 00:00:00 Z
 layout: post
-title: "Geofísica"
 ---
 
 La geofísica es la ciencia que se encarga del estudio de la Tierra desde el punto de vista de la física. Su objeto de estudio abarca todos los fenómenos relacionados con la estructura, condiciones físicas e historia evolutiva de la Tierra. Al ser una disciplina principalmente experimental, usa para su estudio métodos cuantitativos físicos como la física de reflexión y refracción de ondas mecánicas, y una serie de métodos basados en la medida de la gravedad, de campos electromagnéticos, magnéticos o eléctricos y de fenómenos radiactivos. En algunos casos dichos métodos aprovechan campos o fenómenos naturales (gravedad, magnetismo terrestre, mareas, terremotos, tsunamis, etc.) y en otros son inducidos por el hombre (campos eléctricos y fenómenos sísmicos).
